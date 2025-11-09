@@ -5,6 +5,11 @@
 	<onload condition="VideoPlayer.Content(livetv) + !PVR.CanRecordPlayingChannel">SetFocus(604)</onload>
 	<include>PropertyIncludes</include>
 	<controls>
+
+		<include condition="Skin.HasSetting(osd.useleftCodecLogos)">CodecLogosLeftOSD</include>
+		<include condition="Skin.HasSetting(osd.usecenterCodecLogos)">CodecLogosCenterOSD</include>
+		<include condition="Skin.HasSetting(osd.userightCodecLogos)">CodecLogosRightOSD</include>
+
 		<!--Player Controls-->
 		<control type="group" id="1">
 			<visible>!Window.IsVisible(sliderdialog) + !Window.IsVisible(shutdownmenu)</visible>
@@ -16,7 +21,7 @@
 				<left>220</left>
 				<right>20</right>
 				<itemgap>5</itemgap>
-				<onright>614</onright>
+				<onright>608</onright>
 				<onleft>noop</onleft>
 				<control type="button" id="601">
 					<include content="PlayerButtons">
@@ -82,7 +87,19 @@
 				<itemgap>5</itemgap>
 				<onleft>607</onleft>
 				<onright>noop</onright>
-				<control type="button" id="614">
+				<control type="button" id="608">
+					<include content="PlayerButtons">
+						<param name="type" value="ppi"/>
+					</include>
+					<onclick>ActivateWindow(playerprocessinfo)</onclick>
+				</control>
+				<control type="button" id="609">
+					<include content="PlayerButtons">
+						<param name="type" value="vs10"/>
+					</include>
+					<onclick>SetFocus(900)</onclick>
+				</control>
+				<control type="button" id="616">
 					<include content="PlayerButtons">
 						<param name="type" value="audio"/>
 					</include>
@@ -91,14 +108,14 @@
 					<visible>!String.IsEmpty(VideoPlayer.AudioLanguage)</visible>
 					<visible>!VideoPlayer.Content(musicvideos) + !$EXP[HideVideoOSD]</visible>
 				</control>
-				<control type="button" id="613">
+				<control type="button" id="615">
 					<include content="PlayerButtons">
 						<param name="type" value="cc"/>
 					</include>
 					<onclick>ActivateWindow(osdsubtitlesettings)</onclick>
 					<visible>!VideoPlayer.Content(musicvideos) + !$EXP[HideVideoOSD]</visible>
 				</control>
-				<control type="button" id="608">
+				<control type="button" id="610">
 					<include content="PlayerButtons">
 						<param name="type" value="info"/>
 					</include>
@@ -107,7 +124,7 @@
 					<visible>!VideoPlayer.Content(livetv) | [VideoPlayer.Content(livetv) + VideoPlayer.HasEpg]</visible>
 					<visible>!VideoPlayer.Content(musicvideos) + !$EXP[HideVideoOSD]</visible>
 				</control>
-				<control type="button" id="609">
+				<control type="button" id="611">
 					<include content="PlayerButtons">
 						<param name="type" value="menu"/>
 					</include>
@@ -115,7 +132,7 @@
 					<onclick condition="VideoPlayer.Content(livetv)">SetFocus(800)</onclick>
 					<visible>VideoPlayer.HasMenu | VideoPlayer.Content(livetv)</visible>
 				</control>
-				<control type="button" id="610">
+				<control type="button" id="612">
 					<include content="PlayerButtons">
 						<param name="type" value="bookmark"/>
 					</include>
@@ -123,7 +140,7 @@
 					<onclick>ActivateWindow(videobookmarks)</onclick>
 					<visible>!VideoPlayer.Content(livetv) + !VideoPlayer.Content(musicvideos) + !$EXP[HideVideoOSD]</visible>
 				</control>
-				<control type="button" id="611">
+				<control type="button" id="613">
 					<include content="PlayerButtons">
 						<param name="type" value="playlist"/>
 					</include>
@@ -132,7 +149,7 @@
 					<onclick condition="!Integer.IsGreater(Playlist.Length(video),1) + Integer.IsGreater(Playlist.Length(music),1)">ActivateWindow(musicplaylist)</onclick>
 					<visible>!VideoPlayer.Content(livetv) + [Integer.IsGreater(Playlist.Length(video),1) | Integer.IsGreater(Playlist.Length(music),1)]</visible>
 				</control>
-				<control type="button" id="612">
+				<control type="button" id="614">
 					<include content="PlayerButtons">
 						<param name="type" value="config"/>
 					</include>
@@ -200,11 +217,6 @@
 					<onclick>PlayerControl(Repeat)</onclick>
 					<visible>Integer.IsGreater(Playlist.Length(video),1)</visible>
 				</control>
-				<control type="button" id="705">
-					<include content="ContextButton"/>
-					<label>$LOCALIZE[31041]</label>
-					<onclick>ActivateWindow(playerprocessinfo)</onclick>
-				</control>
 				<control type="image">
 					<width>100%</width>
 					<height>61</height>
@@ -258,6 +270,65 @@
 					<onclick>Dialog.Close(videoosd)</onclick>
 					<onclick>ActivateWindow(Teletext)</onclick>
 					<visible>VideoPlayer.HasTeletext</visible>
+				</control>
+				<control type="image">
+					<width>100%</width>
+					<height>61</height>
+					<texture border="65,0,65,0" colordiffuse="context_color">dialogs/context/bottom.png</texture>
+				</control>
+			</control>
+		</control>
+		<!-- VS10 Menu -->
+		<control type="group">
+			<visible>ControlGroup(900).HasFocus + !Window.IsVisible(DialogSettings.xml) + !Window.IsVisible(playerprocessinfo) + !Window.IsVisible(selectdialog)</visible>
+			<include>Visible_PopupOpenClose</include>
+			<centerleft>50%</centerleft>
+			<width>500</width>
+			<centertop>50%</centertop>
+			<height>982</height>
+			<control type="grouplist" id="900">
+				<orientation>vertical</orientation>
+				<height>auto</height>
+				<align>center</align>
+				<itemgap>0</itemgap>
+				<onright>close</onright>
+				<onleft>close</onleft>
+				<onback>612</onback>
+				<usecontrolcoords>true</usecontrolcoords>
+				<control type="image">
+					<width>100%</width>
+					<height>61</height>
+					<texture border="65,0,65,0" colordiffuse="context_color">dialogs/context/top.png</texture>
+				</control>
+				<control type="button" id="901">
+					<include content="ContextButton"/>
+					<label>$LOCALIZE[32064]</label>
+					<selected>Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),5) | [[Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),0) | Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),1)] + String.Contains(Player.Process(video.hdr.type),Dolby)]</selected>
+					<onclick>Action(vs10.original)</onclick>
+					<onclick>close</onclick>
+				</control>
+				<control type="button" id="902">
+					<include content="ContextButton"/>
+					<label>VS10 SDR</label>
+					<selected>Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),3)</selected>
+					<onclick>Action(vs10.sdr)</onclick>#
+					<onclick>close</onclick>
+				</control>
+				<control type="button" id="903">
+					<include content="ContextButton"/>
+					<label>VS10 HDR10</label>
+					<visible>[String.Contains(Player.Process(video.hdr.type),SDR) | String.Contains(Player.Process(video.hdr.type),HLG)]</visible>
+					<selected>Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),2)</selected>
+					<onclick>Action(vs10.hdr10)</onclick>
+					<onclick>close</onclick>
+				</control>
+				<control type="button" id="904">
+					<include content="ContextButton"/>
+					<visible>String.Contains(Player.Process(video.hdr.type),SDR) | String.Contains(Player.Process(video.hdr.type),HDR)</visible>
+					<label>VS10 Dolby Vision</label>
+					<selected>[Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),0) | Integer.IsEqual(Player.Process(amlogic.vs10.mode.raw),1)] + !String.Contains(Player.Process(video.hdr.type),Dolby)</selected>
+					<onclick>Action(vs10.dv)</onclick>
+					<onclick>close</onclick>
 				</control>
 				<control type="image">
 					<width>100%</width>
