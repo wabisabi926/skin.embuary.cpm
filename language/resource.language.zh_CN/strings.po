@@ -8,31 +8,32 @@
 # lei zhang <hazhanglei@gmail.com>, 2019
 # Noisy✘ <164980316@qq.com>, 2019
 # Xiang Shen <vshenx.cn@gmail.com>, 2021
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: skin.ftv pvr mod\n"
 "Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2019-09-04 11:31+0000\n"
-"Last-Translator: Xiang Shen <vshenx.cn@gmail.com>, 2021\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/sualfred/teams/80018/zh_CN/)\n"
+"PO-Revision-Date: 2025-11-07 14:56+0800\n"
+"Last-Translator: wabisabi926\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/sualfred/"
+"teams/80018/zh_CN/)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.8.7\n"
+"X-Generator: Poedit 3.5\n"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31000"
 msgid "Home"
-msgstr "主页"
+msgstr "主界面"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31001"
 msgid "Misc."
-msgstr "其他"
+msgstr "杂项"
 
 #: /xml/MyVideoNav.xml
 msgctxt "#31002"
@@ -335,7 +336,9 @@ msgid ""
 "Set the type and add rules to create a smart playlist. These playlists are "
 "dynamic and include all media items from your database which apply to your "
 "chosen rules."
-msgstr "设置类型并添加规则以创建智能播放列表。这些播放列表是动态的，包括数据库中适用于您所选规则的所有媒体项。"
+msgstr ""
+"设置类型并添加规则来创建智能播放列表。这些播放列表是动态的，包括数据库中适用"
+"于您选择的规则的所有媒体项目。"
 
 #: /xml/DialogFavourites.xml
 msgctxt "#31062"
@@ -493,7 +496,9 @@ msgid ""
 "This skin is designed to simulate the web gui experience of Emby. In order "
 "to get everything running as it should, it's recommended to set the "
 "following Kodi options:"
-msgstr "这个皮肤是为了在Kodi中尽量达到网页版的Emby的体验而设计的。为了让皮肤能够正常运行，建议设置以下选项："
+msgstr ""
+"这个皮肤是为了在 Kodi 中尽量达到网页版的 Emby 的体验而设计的。为了让皮肤能够"
+"正常运行，建议设置以下选项："
 
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31093"
@@ -558,7 +563,7 @@ msgstr "使用自己的静态背景图像"
 #: /xml/Embuary_Variables.xml
 msgctxt "#31105"
 msgid "Change background, header and other misc. settings of Embuary."
-msgstr "更改背景，标题和其他杂项。 Embuary的设置。"
+msgstr "更改背景，标题和其他杂项。 Embuary 的设置。"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31106"
@@ -598,7 +603,7 @@ msgstr "自助终端模式（不允许编辑视图）"
 #: /xml/SkinSettings.xml
 msgctxt "#31113"
 msgid "Show button to change the EmbyCon user"
-msgstr "显示切换EmbyCon用户的按钮"
+msgstr "显示切换 EmbyCon 用户的按钮"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31114"
@@ -623,7 +628,7 @@ msgstr "替换标题栏中的设备名称"
 #: /xml/Custom_1121_TVShowHub.xml
 msgctxt "#31118"
 msgid "EmbyCon sources"
-msgstr "EmbyCon来源"
+msgstr "EmbyCon 来源"
 
 #: /xml/DialogPVRChannelsOSD.xml
 msgctxt "#31119"
@@ -653,7 +658,7 @@ msgstr "显示播放列表"
 #: /xml/Settings.xml
 msgctxt "#31124"
 msgid "LibreELEC"
-msgstr "便携版Kodi系统（LibreELEC）"
+msgstr "LibreELEC"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31125"
@@ -693,12 +698,14 @@ msgstr "注意"
 #: /xml/Custom_1118_ct.xml
 msgctxt "#31132"
 msgid ""
-"It seems that you have one ore more blacklisted plugins installed. This skin"
-" has been designed for a legal usage of Kodi and I - and all the other skin "
-"contributers - do not want be associated with such tools. Please check the "
-"kodi.tv community if you need any assistance to remove them."
+"It seems that you have one ore more blacklisted plugins installed. This "
+"skin has been designed for a legal usage of Kodi and I - and all the other "
+"skin contributers - do not want be associated with such tools. Please check "
+"the kodi.tv community if you need any assistance to remove them."
 msgstr ""
-"您似乎已经安装了一个或多个黑名单插件。这款皮肤专为合法使用Kodi而设计。我以及所有其他皮肤贡献者不希望与此类工具相关联。如果您需要任何帮助，请检查kodi.tv社区。"
+"您似乎已经安装了一个或多个被列入黑名单的插件。这款皮肤专为合法使用 Kodi 而设"
+"计。我以及所有其他皮肤贡献者不希望与此类工具相关联。如果您需要任何帮助，请检"
+"查 kodi.tv 社区。"
 
 #: /xml/AddonBrowser.xml
 msgctxt "#31133"
@@ -738,7 +745,7 @@ msgstr "你想要应用未保存的更改吗"
 #: /xml/DialogAddonSettings.xml
 msgctxt "#31140"
 msgid "Add-on settings not saved"
-msgstr "Add-on的设置未保存"
+msgstr "插件设置未保存"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31141"
@@ -943,7 +950,7 @@ msgstr "所有电影"
 #: /xml/SkinSettings.xml
 msgctxt "#31181"
 msgid "Emby node"
-msgstr "Emby节点"
+msgstr "Emby 节点"
 
 #: /xml/Embuary_TagHubIncludes.xml
 msgctxt "#31182"
@@ -968,7 +975,7 @@ msgstr "随机电视节目"
 #: /xml/Embuary_Variables.xml
 msgctxt "#31186"
 msgid "Emby stream"
-msgstr "Emby媒体流"
+msgstr "Emby 媒体流"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31187"
@@ -1078,7 +1085,7 @@ msgstr "恢复默认主菜单配置"
 #: /xml/Custom_1111_PositionItemSelector.xml
 msgctxt "#31208"
 msgid "EmbyCon node"
-msgstr "EmbyCon节点"
+msgstr "EmbyCon 节点"
 
 #: /xml/Embuary_EmbyConHubIncludes.xml
 msgctxt "#31209"
@@ -1143,12 +1150,12 @@ msgstr "纵向"
 #: /xml/SkinSettings.xml
 msgctxt "#31221"
 msgid "Use EPG thumbnails for PVR widgets (if available)"
-msgstr "使用EPG缩略图获取PVR小部件（如果有）"
+msgstr "使用 EPG 缩略图获取 PVR 小部件（如果有）"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31222"
 msgid "Support at emby.media"
-msgstr "在emby.media上支持"
+msgstr "在 emby.media 上支持"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31223"
@@ -1163,12 +1170,12 @@ msgstr "电源菜单"
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31225"
 msgid "EmbyCon login"
-msgstr "EmbyCon登录"
+msgstr "EmbyCon 登录"
 
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31226"
 msgid "Change EmbyCon user"
-msgstr "切换EmbyCon用户"
+msgstr "切换 EmbyCon 用户"
 
 #: /xml/Embuary_InfoDialog.xml
 msgctxt "#31227"
@@ -1185,7 +1192,8 @@ msgctxt "#31229"
 msgid ""
 "Create and manage your own widgets source. Please note that each widget has "
 "to be manually assigned to the chosen window."
-msgstr "创建和管理您自己的小部件源。请注意，必须手动将每个小部件分配给所选窗口。"
+msgstr ""
+"创建和管理您自己的小部件源。请注意，必须手动将每个小部件分配给所选窗口。"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31230"
@@ -1255,7 +1263,7 @@ msgstr "库"
 #: /xml/Embuary_Includes.xml
 msgctxt "#31243"
 msgid "Install from zip"
-msgstr "从zip文件安装"
+msgstr "从 zip 文件安装"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31244"
@@ -1300,7 +1308,7 @@ msgstr "插件中心"
 #: /xml/Embuary_Variables.xml
 msgctxt "#31252"
 msgid "PVR hub"
-msgstr "PVR中心"
+msgstr "PVR 中心"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31253"
@@ -1325,7 +1333,7 @@ msgstr "此时此刻"
 #: /shortcuts/overrides.xml
 msgctxt "#31257"
 msgid "Try to use an Emby styled artwork"
-msgstr "尝试使用Emby风格的艺术品"
+msgstr "尝试使用 Emby 风格的艺术作品"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31258"
@@ -1427,7 +1435,7 @@ msgstr "依赖和插件"
 #: /xml/Embuary_SkinSettings.xml
 msgctxt "#31277"
 msgid "Hide video OSD while playback is paused"
-msgstr "暂停播放时隐藏视频OSD"
+msgstr "暂停播放时隐藏视频 OSD"
 
 #: /xml/Embuary_WidgetTemplates.xml
 msgctxt "#31278"
@@ -1452,7 +1460,7 @@ msgstr "编辑电影小部件配置"
 #: /xml/SkinSettings.xml
 msgctxt "#31282"
 msgid "EmbyCon nodes"
-msgstr "EmbyCon节点"
+msgstr "EmbyCon 节点"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31283"
@@ -1529,7 +1537,7 @@ msgstr "用于支持的有用链接，报告问题或者您希望如何帮助将
 #: /xml/SkinSettings.xml
 msgctxt "#31297"
 msgid "Support at kodi.tv"
-msgstr "在kodi.tv上支持"
+msgstr "在 kodi.tv 上支持"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31298"
@@ -1539,7 +1547,7 @@ msgstr "支持和翻译"
 #: /xml/Embuary_Settings.xml
 msgctxt "#31299"
 msgid "Update Kodi"
-msgstr "更新Kodi"
+msgstr "更新 Kodi"
 
 #: /xml/Embuary_HomeIncludes.xml
 msgctxt "#31300"
@@ -1604,24 +1612,24 @@ msgstr "保持"
 #: /xml/SkinSettings.xml
 msgctxt "#31312"
 msgid "Disable 'Skin Helper Service' add-on packages"
-msgstr "禁用“Skin Helper Service”插件包"
+msgstr "禁用 “Skin Helper Service” 插件包"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31313"
 msgid "Enable 'Skin Helper Service' add-on packages"
-msgstr "启用“Skin Helper Service”插件包"
+msgstr "启用 “Skin Helper Service” 插件包"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31314"
 msgid ""
 "To prevent speed penalties and issues it's recommended to disable the "
 "following add-ons:[CR][CR][COLOR blue]• script.module.metadatautils[CR]• "
-"script.skin.helper.service[CR]• script.skin.helper.widgets[CR]• "
-"script.skin.helper.backgrounds[/COLOR]"
+"script.skin.helper.service[CR]• script.skin.helper.widgets[CR]• script.skin."
+"helper.backgrounds[/COLOR]"
 msgstr ""
-"为了防止刮削速度导致的惩罚问题，建议禁用以下插件：[CR] [CR] [COLOR blue]•script.module.metadatautils "
-"[CR]•script.skin.helper.service [CR]•script.skin .helper.widgets "
-"[CR]•script.skin.helper.backgrounds [/ COLOR]"
+"为避免速度下降及性能问题，建议禁用以下插件：[CR][CR][COLOR blue]• script."
+"module.metadatautils[CR]• script.skin.helper.service[CR]• script.skin."
+"helper.widgets[CR]• script.skin.helper.backgrounds[/COLOR]"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31315"
@@ -1636,7 +1644,7 @@ msgstr "你真的想要禁用它们吗？"
 #: /xml/SkinSettings.xml
 msgctxt "#31317"
 msgid "Enable channel labeling for EPG thumbnails"
-msgstr "为EPG缩略图启用频道标记"
+msgstr "为 EPG 缩略图启用频道标记"
 
 #: /xml/script-embuary-video.xml
 msgctxt "#31318"
@@ -1729,12 +1737,12 @@ msgstr "弹出光盘"
 #: /xml/Embuary_SkinSettings.xml
 msgctxt "#31336"
 msgid "Show EPG thumbnail in video OSD (if available)"
-msgstr "在视频OSD中显示EPG缩略图（如果有）"
+msgstr "在视频 OSD 中显示 EPG 缩略图（如果有）"
 
 #: /xml/Embuary_Settings.xml
 msgctxt "#31337"
 msgid "Upload Kodi log"
-msgstr "上传Kodi日志"
+msgstr "上传 Kodi 日志"
 
 #: /xml/Embuary_Settings.xml
 msgctxt "#31338"
@@ -1754,12 +1762,12 @@ msgstr "使用可用的中心作为目标"
 #: /xml/Embuary_SkinSettings.xml
 msgctxt "#31341"
 msgid "EPG thumbnail aspect ratio"
-msgstr "EPG缩略图宽高比"
+msgstr "EPG 缩略图宽高比"
 
 #: /xml/Embuary_Settings.xml
 msgctxt "#31342"
 msgid "Embuary changelog"
-msgstr "Embuary更新日志"
+msgstr "Embuary 更新日志"
 
 #: /xml/DialogAddonInfo.xml
 msgctxt "#31343"
@@ -1784,7 +1792,7 @@ msgstr "正在"
 #: /xml/Embuary_SkinSettings.xml
 msgctxt "#31347"
 msgid "Use mini EPG for channels OSD"
-msgstr "使用迷你EPG显示频道OSD"
+msgstr "使用迷你 EPG 显示频道 OSD"
 
 #: /xml/Embuary_SkinSettings.xml
 msgctxt "#31348"
@@ -1829,18 +1837,19 @@ msgid ""
 "because each fanart is going to be processed and stored separately as "
 "blurred image in the Kodi userdata folder."
 msgstr ""
-"此功能非常昂贵，不应在像Raspberry Pi这样的慢速设备上启用。 "
-"它还需要驱动器上的一些存储空间，因为每个同人画将作为模糊图像单独处理和存储在Kodi的userdata文件夹中。"
+"此功能非常昂贵，不应在像 Raspberry Pi 这样的慢速设备上启用。它还需要驱动器上"
+"的一些存储空间，因为每个同人画将作为模糊图像单独处理和存储在 Kodi 的 "
+"userdata 文件夹中。"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31356"
 msgid "Translate on transifex.com"
-msgstr "在transifex.com上翻译"
+msgstr "在 transifex.com 上翻译"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31357"
 msgid "Live long and prosper"
-msgstr "健康长寿·繁荣昌盛"
+msgstr "生生不息，繁荣昌盛"
 
 #: /xml/Embuary_SkinSettings.xml
 msgctxt "#31358"
@@ -1870,10 +1879,12 @@ msgstr "设置本皮肤的导航声音"
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31363"
 msgid ""
-"Please keep in mind that these settings are global and will be valid for all"
-" installed skins. But don't panic, all settings can be reverted in the Kodi "
-"settings."
-msgstr "请记住，这些设置是全局的，并且对所有已安装的皮肤都有效。但不担心，所有设置都可以在Kodi设置中恢复。"
+"Please keep in mind that these settings are global and will be valid for "
+"all installed skins. But don't panic, all settings can be reverted in the "
+"Kodi settings."
+msgstr ""
+"请记住，这些设置是全局的，并且对所有已安装的皮肤都有效。但不担心，所有设置都"
+"可以在Kodi设置中恢复。"
 
 #: /xml/DialogPVRInfo.xml
 msgctxt "#31364"
@@ -2048,10 +2059,12 @@ msgstr "启用切换标签"
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31398"
 msgid ""
-"A unique feature of Embuary is the auto generation of hubs based on existing"
-" library tags in your database (e.g. 'kids content', 'HDR videos', "
+"A unique feature of Embuary is the auto generation of hubs based on "
+"existing library tags in your database (e.g. 'kids content', 'HDR videos', "
 "'documentaries')."
-msgstr "Embuary 的一个独特功能是基于数据库中现有库标记（例如：\"儿童内容\"，\"HDR 视频\"，\"文档记录\"）自动生成标签。"
+msgstr ""
+"Embuary 的一个独特功能是基于媒体库中现有库标记（例如：\"儿童内容\"，\"HDR 视"
+"频\"，\"文档记录\"）自动生成标签。"
 
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31399"
@@ -2060,7 +2073,9 @@ msgid ""
 "few available tags, you can disable the ones you don't want to have "
 "populated at any time. By default future and new tags will be whitelisted "
 "automatically."
-msgstr "由于每个人设置都不同，并且有些人只想为几个可用标记设置标签，因此您可以随时禁用不希望填充的标记。默认情况下，未来和新标记将自动列入白名单。"
+msgstr ""
+"由于每个人设置都不同，并且有些人只想为几个可用标记设置标签，因此您可以随时禁"
+"用不希望填充的标记。默认情况下，未来和新标记将自动列入白名单。"
 
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31400"
@@ -2078,7 +2093,9 @@ msgid ""
 "To get the best out-of-box experience the skin will automatically populate "
 "shipped widgets for database items like 'in progress episodes', 'recently "
 "added movies' or suggestions based on the items you have watched."
-msgstr "为了获得最好的开箱即用体验，皮肤将根据您观看的项目自动填充数据库项目（如“正在进行的剧集”、“最近添加的电影”或建议）的附带小部件。"
+msgstr ""
+"为了获得最好的开箱即用体验，皮肤将根据您观看的项目自动填充数据库项目（如“正"
+"在进行的剧集”、“最近添加的电影”或建议）的附带小部件。"
 
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31403"
@@ -2089,9 +2106,11 @@ msgstr "重要"
 msgctxt "#31404"
 msgid ""
 "For existing Embuary installations, this step must be performed to get "
-"everything working due to a recent update. Configured custom widgets are not"
-" removed and only need to be reassigned."
-msgstr "对于现有的Embuary安装，由于最近的更新，必须执行此步骤才能使一切正常工作。配置的自定义小部件不会被删除，只需要重新分配。"
+"everything working due to a recent update. Configured custom widgets are "
+"not removed and only need to be reassigned."
+msgstr ""
+"对于现有的 Embuary 安装，由于最近的更新，必须执行此步骤才能使一切正常工作。"
+"配置的自定义小部件不会被删除，只需要重新分配。"
 
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31405"
@@ -2118,6 +2137,11 @@ msgctxt "#31409"
 msgid "Favourite"
 msgstr "最喜欢的"
 
+#: /xml/Embuary_MetaIncludes.xml
+msgctxt "#31410"
+msgid "Disabled auto updating"
+msgstr "禁用自动更新"
+
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31411"
 msgid "OK, add found to whitelist"
@@ -2126,4 +2150,320 @@ msgstr "好，将找到的添加到白名单"
 #: /xml/DialogButtonMenu.xml
 msgctxt "#31412"
 msgid "Restart Kodi"
-msgstr "重新启动Kodi"
+msgstr "重新启动 Kodi"
+
+#: /xml/Embuary_Variables.xml
+msgctxt "#31413"
+msgid "Media importer"
+msgstr "媒体导入器"
+
+#: /xml/DialogMediaImportInfo.xml
+msgctxt "#31414"
+msgid "Sync options"
+msgstr "同步选项"
+
+#: /xml/DialogMediaImportInfo.xml
+msgctxt "#31415"
+msgid "Provider"
+msgstr "提供商"
+
+#: /xml/DialogMediaImportInfo.xml
+msgctxt "#31416"
+msgid "Media type"
+msgstr "媒体类型"
+
+msgctxt "#32000"
+msgid "Display mode"
+msgstr "显示模式"
+
+msgctxt "#32001"
+msgid "Video mode"
+msgstr "视频模式"
+
+msgctxt "#32002"
+msgid "Color space"
+msgstr "色彩空间"
+
+msgctxt "#32003"
+msgid "Mb/s"
+msgstr "Mb/s"
+
+msgctxt "#32004"
+msgid "Bit depth"
+msgstr "位深度"
+
+msgctxt "#32005"
+msgid "Decoder"
+msgstr "解码器"
+
+msgctxt "#32006"
+msgid "VS10 engine"
+msgstr "VS10 引擎"
+
+msgctxt "#32007"
+msgid "More"
+msgstr "更多"
+
+msgctxt "#32008"
+msgid "Video queue"
+msgstr "视频队列"
+
+msgctxt "#32009"
+msgid "Video queue data"
+msgstr "视频队列数据"
+
+msgctxt "#32010"
+msgid "Audio queue"
+msgstr "音频队列"
+
+msgctxt "#32011"
+msgid "Audio queue data"
+msgstr "音频队列数据"
+
+msgctxt "#32012"
+msgid "Kb/s"
+msgstr "Kb/s"
+
+msgctxt "#32013"
+msgid "Playback time"
+msgstr "播放时间"
+
+msgctxt "#32014"
+msgid "Processor"
+msgstr "处理器"
+
+msgctxt "#32015"
+msgid "Metadata"
+msgstr "元数据"
+
+msgctxt "#32016"
+msgid "Profile"
+msgstr "Profile"
+
+msgctxt "#32017"
+msgid "Level"
+msgstr "Level"
+
+msgctxt "#32018"
+msgid "RPU"
+msgstr "RPU"
+
+msgctxt "#32019"
+msgid "Base Layer"
+msgstr "基础层"
+
+msgctxt "#32020"
+msgid "Enhancement Layer"
+msgstr "增强层"
+
+msgctxt "#32021"
+msgid "Enhancement Layer Type"
+msgstr "增强层类型"
+
+msgctxt "#32022"
+msgid "Metadata"
+msgstr "元数据"
+
+msgctxt "#32023"
+msgid "Pixel format"
+msgstr "像素格式"
+
+msgctxt "#32024"
+msgid "Aspect ratio"
+msgstr "宽高比"
+
+msgctxt "#32025"
+msgid "HDR10 MDL"
+msgstr "HDR10 元数据描述层"
+
+msgctxt "#32026"
+msgid "HDR10 MaxCLL/FALL"
+msgstr "HDR10 最大内容亮度等级/帧平均亮度等级"
+
+msgctxt "#32027"
+msgid "Media source"
+msgstr "媒体源"
+
+msgctxt "#32028"
+msgid "Unknown"
+msgstr "未知"
+
+msgctxt "#32029"
+msgid "On"
+msgstr "开"
+
+msgctxt "#32030"
+msgid "Off"
+msgstr "关"
+
+msgctxt "#32031"
+msgid "Deinterlacing"
+msgstr "去隔行扫描"
+
+msgctxt "#32032"
+msgid "Player cache"
+msgstr "播放器缓存"
+
+msgctxt "#32033"
+msgid "N/A"
+msgstr "不可用"
+
+msgctxt "#32034"
+msgid "Memory usage"
+msgstr "内存使用情况"
+
+msgctxt "#32035"
+msgid "Passthrough"
+msgstr "允许直通输出"
+
+msgctxt "#32036"
+msgid "AML FPS"
+msgstr "AML 帧率"
+
+msgctxt "#32037"
+msgid "DV Configuration"
+msgstr "DV 配置"
+
+msgctxt "#32038"
+msgid "DV Levels Metadata"
+msgstr "DV 级别元数据"
+
+msgctxt "#32039"
+msgid "HDR Static Metadata"
+msgstr "HDR 静态元数据"
+
+msgctxt "#32040"
+msgid "cd/m²"
+msgstr "cd/m²"
+
+msgctxt "#32041"
+msgid "RPU MDL"
+msgstr "RPU 元数据描述层"
+
+msgctxt "#32042"
+msgid "RPU MaxCLL/FALL"
+msgstr "RPU 最大内容亮度等级/帧平均亮度等级"
+
+msgctxt "#32043"
+msgid "FLL MIN / MAX / Ø"
+msgstr "FLL 最小值/最大值/平均值"
+
+msgctxt "#32044"
+msgid "PQ  MIN / MAX / Ø"
+msgstr "PQ 最小值/最大值/平均值"
+
+msgctxt "#32045"
+msgid "12-bit"
+msgstr "12-bit"
+
+msgctxt "#32046"
+msgid "Codec"
+msgstr "编解码器"
+
+msgctxt "#32047"
+msgid "Bitrate"
+msgstr "码率"
+
+msgctxt "#32048"
+msgid "VS10 status"
+msgstr "VS10 状态"
+
+msgctxt "#32051"
+msgid "Input"
+msgstr "输入"
+
+msgctxt "#32052"
+msgid "Audio language"
+msgstr "对白语言"
+
+msgctxt "#32053"
+msgid "Subtitle language"
+msgstr "字幕语言"
+
+msgctxt "#32054"
+msgid "Video"
+msgstr "视频"
+
+msgctxt "#32055"
+msgid "Output"
+msgstr "脚本输出"
+
+msgctxt "#32056"
+msgid "Audio"
+msgstr "音频"
+
+msgctxt "#32057"
+msgid "Top left"
+msgstr "左上角"
+
+msgctxt "#32058"
+msgid "Top center"
+msgstr "顶部中心"
+
+msgctxt "#32059"
+msgid "Top right"
+msgstr "右上角"
+
+msgctxt "#32060"
+msgid "Position of the codec logos in the OSD"
+msgstr "OSD 中编解码器徽标的位置"
+
+msgctxt "#32061"
+msgid "Position of the codec logos in the PlayerProcessInfo"
+msgstr "播放器进程信息中编解码器徽标的位置"
+
+msgctxt "#32062"
+msgid "Position of the codec logos when video starts"
+msgstr "视频开始时编解码器徽标的位置"
+
+msgctxt "#32063"
+msgid "Codec logos"
+msgstr "编解码器徽标"
+
+msgctxt "#32064"
+msgid "Original"
+msgstr "原始"
+
+msgctxt "#32065"
+msgid "VS10 mode"
+msgstr "VS10 模式"
+
+msgctxt "#32067"
+msgid "L5 Active Offsets"
+msgstr "Level 5 动态偏移量"
+
+msgctxt "#32068"
+msgid "Version"
+msgstr "版本"
+
+msgctxt "#32069"
+msgid "Bit depth"
+msgstr "位深度"
+
+msgctxt "#32070"
+msgid "EOTF & Gamut"
+msgstr "EOTF 和 色域"
+
+msgctxt "#32071"
+msgid "Duration of the codec logos when video starts"
+msgstr "视频开始时编解码器徽标的持续时间"
+
+msgctxt "#32072"
+msgid "Standard"
+msgstr "标准"
+
+msgctxt "#32075"
+msgid "second"
+msgstr "秒"
+
+msgctxt "#32076"
+msgid "seconds"
+msgstr "秒"
+
+msgctxt "#32077"
+msgid "System"
+msgstr "系统"
+
+msgctxt "#32078"
+msgid "Decoding"
+msgstr "硬件解码"
