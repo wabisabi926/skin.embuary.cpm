@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: skin.ftv pvr mod\n"
 "Report-Msgid-Bugs-To: http://trac.xbmc.org/\n"
 "POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"PO-Revision-Date: 2025-11-07 14:56+0800\n"
+"PO-Revision-Date: 2025-11-18 11:11+0800\n"
 "Last-Translator: wabisabi926\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/sualfred/"
 "teams/80018/zh_CN/)\n"
@@ -1723,6 +1723,11 @@ msgctxt "#31332"
 msgid ""
 "The updated hub label will be shown on the next opening of the menu editor"
 msgstr "更新的中心标签将在下次打开菜单编辑器时显示"
+
+#: /xml/Embuary_MetaIncludes.xml
+msgctxt "#31333"
+msgid "Enabled auto updating"
+msgstr "已启用自动更新"
 
 #: /xml/Embuary_InfoDialog.xml
 msgctxt "#31334"
