@@ -13,11 +13,13 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en_GB">Embuary skin by Sualfred</summary>
-		<summary lang="de_DE">Embuary Skin von Sualfred</summary>
+		<summary lang="de_DE">Embuary Skin von Sualfred</summary>		
+		<summary lang="zh_CN">Sualfred 推出的 Embuary 皮肤</summary>
 		<description lang="en_GB">Embuary is based on the web UI of Emby and has been developed for Emby-For-Kodi and EmbyCon users, but will also work for any other common Kodi setup.</description>
 		<description lang="de_DE">Embuary ist dem Web UI von Emby nachempfunden und für Emby-For-Kodi und EmbyCon Nutzer entwickelt worden, aber funktioniert auch für alle gängigen Kodi Setups.</description>
 		<disclaimer lang="en_GB">No mouse support. With the installation of the skin you agree that you don't use it in combination with blacklisted and illegal Kodi add-ons. I'm not associated with any available build and I won't give any support to blacklisted, banned or illegal third party addons.</disclaimer>
 		<disclaimer lang="de_DE">Keine Maus Unterstützung. Mit der Installation des Skins erklärst du dich damit einverstanden keine verbotenen und illegalen Addons von Kodi damit zu benutzen. Ich stehe in keinerlei Verbindung zu verfübaren Builds und gebe keinen Support für diese oder andere illegalen Drittanbieter-Addons.</disclaimer>
+		<disclaimer lang="zh_CN">Embuary 是基于 Emby 的网络用户界面开发的，专为使用 Emby-For-Kodi 或 EmbyCon 的用户设计，但也可以适用于其他常见的 Kodi 设置环境。</disclaimer>
 		<platform>all</platform>
 		<license>CC-BY-NC-ND-4.0</license>
 		<forum>https://emby.media/community/index.php?/topic/49724-beta-embuary-the-emby-kodi-skin/</forum>
