@@ -108,7 +108,7 @@ msgstr "假日主题"
 #: /xml/SkinSettings.xml
 msgctxt "#31016"
 msgid "Enable widget bounce animation on focus"
-msgstr "在焦点上启用小部件反弹动画"
+msgstr "在焦点上启用小组件反弹动画"
 
 #: /xml/Custom_1121_TVShowHub.xml
 msgctxt "#31017"
@@ -448,7 +448,7 @@ msgstr "最后调谐的广播频道"
 #: /xml/SkinSettings.xml
 msgctxt "#31083"
 msgid "Widgets"
-msgstr "小部件"
+msgstr "小组件"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31084"
@@ -463,7 +463,7 @@ msgstr "显示 EmbyCon 源标签"
 #: /xml/SkinSettings.xml
 msgctxt "#31086"
 msgid "Default widgets"
-msgstr "默认小部件"
+msgstr "默认小组件"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31087"
@@ -533,7 +533,7 @@ msgstr "前250名的电视节目"
 #: /xml/Embuary_Widgets.xml
 msgctxt "#31099"
 msgid "Widget layout"
-msgstr "小部件布局"
+msgstr "小组件布局"
 
 #: /xml/Embuary_Widgets.xml
 msgctxt "#31100"
@@ -553,7 +553,7 @@ msgstr "背景设置"
 #: /xml/SkinSettings.xml
 msgctxt "#31103"
 msgid "Widget settings"
-msgstr "小部件设置"
+msgstr "小组件设置"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31104"
@@ -568,7 +568,7 @@ msgstr "更改背景，标题和其他杂项。 Embuary 的设置。"
 #: /xml/Embuary_Variables.xml
 msgctxt "#31106"
 msgid "Configure home & side panel menu items and general widget limitations."
-msgstr "配置主页和侧面板菜单项以及常规小部件限制。"
+msgstr "配置主页和侧面板菜单项以及常规小组件限制。"
 
 #: /xml/Custom_1111_PositionItemSelector.xml
 msgctxt "#31107"
@@ -663,7 +663,7 @@ msgstr "LibreELEC"
 #: /xml/SkinSettings.xml
 msgctxt "#31125"
 msgid "Custom widgets"
-msgstr "自定义小部件"
+msgstr "自定义小组件"
 
 #: /xml/MyPics.xml
 msgctxt "#31126"
@@ -673,7 +673,7 @@ msgstr "随机幻灯片"
 #: /xml/Custom_1112_MainMenuReset.xml
 msgctxt "#31127"
 msgid "Restored default widgets"
-msgstr "恢复默认的小部件"
+msgstr "恢复默认的小组件"
 
 #: /xml/AddonBrowser.xml
 msgctxt "#31128"
@@ -805,12 +805,12 @@ msgstr "NR。"
 #: /xml/SkinSettings.xml
 msgctxt "#31152"
 msgid "Hub shortcuts"
-msgstr "快捷方式中心"
+msgstr "聚合中心快捷方式"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31153"
 msgid "Hide widgets and use fullscreen panel layout for the main menu"
-msgstr "隐藏小部件并使用全屏面板的主菜单布局"
+msgstr "隐藏小组件并使用全屏面板的主菜单布局"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31154"
@@ -1125,7 +1125,7 @@ msgstr "经常播放歌曲"
 #: /xml/SkinSettings.xml
 msgctxt "#31216"
 msgid "Reset widget configuration to default"
-msgstr "将小部件配置重置为默认值"
+msgstr "将小组件配置重置为默认值"
 
 #: /xml/Custom_1112_Reset.xml
 msgctxt "#31217"
@@ -1150,7 +1150,7 @@ msgstr "纵向"
 #: /xml/SkinSettings.xml
 msgctxt "#31221"
 msgid "Use EPG thumbnails for PVR widgets (if available)"
-msgstr "使用 EPG 缩略图获取 PVR 小部件（如果有）"
+msgstr "使用 EPG 缩略图获取 PVR 小组件（如果有）"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31222"
@@ -1193,7 +1193,7 @@ msgid ""
 "Create and manage your own widgets source. Please note that each widget has "
 "to be manually assigned to the chosen window."
 msgstr ""
-"创建和管理您自己的小部件源。请注意，必须手动将每个小部件分配给所选窗口。"
+"创建和管理您自己的小组件源。请注意，必须手动将每个小组件分配给所选窗口。"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31230"
@@ -1273,7 +1273,7 @@ msgstr "编辑菜单配置"
 #: /xml/SkinSettings.xml
 msgctxt "#31245"
 msgid "Edit widget configuration"
-msgstr "编辑小部件配置"
+msgstr "编辑小组件配置"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31246"
@@ -1283,12 +1283,12 @@ msgstr "中心"
 #: /xml/SkinSettings.xml
 msgctxt "#31247"
 msgid "Menus & widgets"
-msgstr "菜单和小部件"
+msgstr "菜单和小组件"
 
 #: /xml/Custom_1110_PositionSelector.xml
 msgctxt "#31248"
 msgid "Reset widgets to default"
-msgstr "将小部件重置为默认值"
+msgstr "将小组件重置为默认值"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31249"
@@ -1318,7 +1318,7 @@ msgstr "中心"
 #: /xml/SkinSettings.xml
 msgctxt "#31254"
 msgid "Hide main menu and only show widgets"
-msgstr "隐藏主菜单，仅显示小部件"
+msgstr "隐藏主菜单，仅显示小组件"
 
 #: /xml/Embuary_Variables.xml
 msgctxt "#31255"
@@ -1450,12 +1450,12 @@ msgstr "基于库标记的中心"
 #: /xml/SkinSettings.xml
 msgctxt "#31280"
 msgid "Edit TV show widget configuration"
-msgstr "编辑电视节目小部件配置"
+msgstr "编辑电视节目小组件配置"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31281"
 msgid "Edit movie widget configuration"
-msgstr "编辑电影小部件配置"
+msgstr "编辑电影小组件配置"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31282"
@@ -1465,7 +1465,7 @@ msgstr "EmbyCon 节点"
 #: /xml/SkinSettings.xml
 msgctxt "#31283"
 msgid "Edit music widget configuration"
-msgstr "编辑音乐小部件配置"
+msgstr "编辑音乐小组件配置"
 
 #: /xml/Embuary_Includes.xml
 msgctxt "#31284"
@@ -1480,7 +1480,7 @@ msgstr "找不到频道"
 #: /xml/SkinSettings.xml
 msgctxt "#31286"
 msgid "Limit items of default widgets"
-msgstr "限制默认小部件的项目"
+msgstr "限制默认小组件的项目"
 
 #: /xml/Embuary_InfoDialog.xml
 msgctxt "#31287"
@@ -1515,7 +1515,7 @@ msgstr "节日建议"
 #: /xml/SkinSettings.xml
 msgctxt "#31293"
 msgid "Enable suggestion widgets"
-msgstr "启用建议小部件"
+msgstr "启用建议小组件"
 
 #: /xml/SkinSettings.xml
 msgctxt "#31294"
@@ -1949,7 +1949,7 @@ msgstr "女"
 #: /xml/Embuary_Variables.xml
 msgctxt "#31375"
 msgid "Configure menu and widget items of the hubs."
-msgstr "配置中心的菜单和小部件。"
+msgstr "配置中心的菜单和小组件。"
 
 #: /xml/Embuary_Settings.xml
 msgctxt "#31376"
@@ -2100,7 +2100,7 @@ msgid ""
 "added movies' or suggestions based on the items you have watched."
 msgstr ""
 "为了获得最好的开箱即用体验，皮肤将根据您观看的项目自动填充数据库项目（如“正"
-"在进行的剧集”、“最近添加的电影”或建议）的附带小部件。"
+"在进行的剧集”、“最近添加的电影”或建议）的附带小组件。"
 
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31403"
@@ -2115,17 +2115,17 @@ msgid ""
 "not removed and only need to be reassigned."
 msgstr ""
 "对于现有的 Embuary 安装，由于最近的更新，必须执行此步骤才能使一切正常工作。"
-"配置的自定义小部件不会被删除，只需要重新分配。"
+"配置的自定义小组件不会被删除，只需要重新分配。"
 
 #: /xml/Custom_1119_StartUp.xml
 msgctxt "#31405"
 msgid "Apply shipped widgets and default configuration?"
-msgstr "应用附带的小部件和默认配置？"
+msgstr "应用附带的小组件和默认配置？"
 
 #: /xml/Embuary_SkinSettings.xml
 msgctxt "#31406"
 msgid "Edit mixed library widget configuration"
-msgstr "编辑混合库小部件配置"
+msgstr "编辑混合库小组件配置"
 
 #: /xml/DialogFavourites.xml
 msgctxt "#31407"
